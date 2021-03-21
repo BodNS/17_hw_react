@@ -1,0 +1,11 @@
+li {
+  list-style-type: none;
+}
+
+.checked {
+  border: 1px solid red;
+}
+
+input {
+  margin: 2px;
+}
