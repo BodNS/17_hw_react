@@ -38,14 +38,12 @@ class App extends Component {
       users: dbUsers.map((u) => ({ ...u, isSelected: false })),
     };
   }
-  setUsers = (newUsers) => {
-    this.setState({ users: newUsers });
-  };
+  
   render() {
     const { users } = this.state;
     return (
       <>
-        <UserList users={users} setUsers={this.setUsers} />
+        <UserList users={users} />
       </>
     );
   }

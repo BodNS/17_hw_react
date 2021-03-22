@@ -38,3 +38,16 @@ class UserItem extends Component {
   };
 }
 export default UserItem;
+
+
+
+
+
+
+
+
+
+/* function ListItem(props) {
+  // Правильно! Не нужно определять здесь ключ:
+  return <li>{props.value}</li>;
+} */
