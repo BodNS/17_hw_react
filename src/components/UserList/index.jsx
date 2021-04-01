@@ -3,8 +3,7 @@ import UserItem from "../UserItem";
 
 const UserList = (props) => {
     const users = props;
-    console.log(users);
-    /* const UserItems =  */Array.from(users).forEach(user => 
+    /* const UserItems =  */users.forEach(user => 
     console.log (user) 
         // <UserItem key={user.id} user={user} />
     ) 
